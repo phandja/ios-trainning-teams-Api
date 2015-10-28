@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B28346A1BE131EC00DA5F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2834691BE131EC00DA5F46 /* main.m */; };
-		3B28346D1BE131EC00DA5F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28346C1BE131EC00DA5F46 /* AppDelegate.m */; };
-		3B2834701BE131ED00DA5F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28346F1BE131ED00DA5F46 /* ViewController.m */; };
-		3B2834731BE131ED00DA5F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2834711BE131ED00DA5F46 /* Main.storyboard */; };
-		3B2834751BE131ED00DA5F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2834741BE131ED00DA5F46 /* Assets.xcassets */; };
-		3B2834781BE131ED00DA5F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2834761BE131ED00DA5F46 /* LaunchScreen.storyboard */; };
 		3B2834831BE131ED00DA5F46 /* ios_teams_APITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2834821BE131ED00DA5F46 /* ios_teams_APITests.m */; };
 		3B28348E1BE131ED00DA5F46 /* ios_teams_APIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28348D1BE131ED00DA5F46 /* ios_teams_APIUITests.m */; };
+		3B2834AD1BE132B500DA5F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28349D1BE132B400DA5F46 /* AppDelegate.m */; };
+		3B2834AF1BE132B500DA5F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2834A41BE132B400DA5F46 /* Assets.xcassets */; };
+		3B2834B01BE132B500DA5F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2834A51BE132B400DA5F46 /* LaunchScreen.storyboard */; };
+		3B2834B11BE132B500DA5F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2834A71BE132B400DA5F46 /* Main.storyboard */; };
+		3B2834B31BE132B500DA5F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2834AB1BE132B500DA5F46 /* main.m */; };
+		3B2834B61BE1346200DA5F46 /* Teams.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2834B51BE1346200DA5F46 /* Teams.m */; };
+		3B2834BC1BE1377500DA5F46 /* TeamsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2834BB1BE1377500DA5F46 /* TeamsVC.m */; };
+		3B2834C21BE13AED00DA5F46 /* TitleDC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2834C11BE13AED00DA5F46 /* TitleDC.m */; };
+		5F1E3DA5DA646C4688321BF8 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D073BC02B09B0C39A4DE01A /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +38,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E92389F45A8BD4BC776D32A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3B2834651BE131EC00DA5F46 /* ios-teams-API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-teams-API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B2834691BE131EC00DA5F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3B28346B1BE131EC00DA5F46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3B28346C1BE131EC00DA5F46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3B28346E1BE131ED00DA5F46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B28346F1BE131ED00DA5F46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3B2834721BE131ED00DA5F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3B2834741BE131ED00DA5F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3B2834771BE131ED00DA5F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3B2834791BE131ED00DA5F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B28347E1BE131ED00DA5F46 /* ios-teams-APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-teams-APITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2834821BE131ED00DA5F46 /* ios_teams_APITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_teams_APITests.m; sourceTree = "<group>"; };
 		3B2834841BE131ED00DA5F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B2834891BE131ED00DA5F46 /* ios-teams-APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-teams-APIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B28348D1BE131ED00DA5F46 /* ios_teams_APIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_teams_APIUITests.m; sourceTree = "<group>"; };
 		3B28348F1BE131ED00DA5F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B28349C1BE132B400DA5F46 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B28349D1BE132B400DA5F46 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B2834A41BE132B400DA5F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B2834A61BE132B400DA5F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B2834A81BE132B400DA5F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B2834AA1BE132B500DA5F46 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2834AB1BE132B500DA5F46 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B2834B41BE1346200DA5F46 /* Teams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teams.h; sourceTree = "<group>"; };
+		3B2834B51BE1346200DA5F46 /* Teams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teams.m; sourceTree = "<group>"; };
+		3B2834BA1BE1377500DA5F46 /* TeamsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsVC.h; sourceTree = "<group>"; };
+		3B2834BB1BE1377500DA5F46 /* TeamsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsVC.m; sourceTree = "<group>"; };
+		3B2834C01BE13AED00DA5F46 /* TitleDC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleDC.h; sourceTree = "<group>"; };
+		3B2834C11BE13AED00DA5F46 /* TitleDC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleDC.m; sourceTree = "<group>"; };
+		6D073BC02B09B0C39A4DE01A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5DC42BEA7B7810348980FC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1E3DA5DA646C4688321BF8 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +96,8 @@
 				3B2834811BE131ED00DA5F46 /* ios-teams-APITests */,
 				3B28348C1BE131ED00DA5F46 /* ios-teams-APIUITests */,
 				3B2834661BE131EC00DA5F46 /* Products */,
+				D9385492B83A9462DBE02432 /* Pods */,
+				CB93D0C0CD9F7CBF1E4AE09A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,25 +114,15 @@
 		3B2834671BE131EC00DA5F46 /* ios-teams-API */ = {
 			isa = PBXGroup;
 			children = (
-				3B28346B1BE131EC00DA5F46 /* AppDelegate.h */,
-				3B28346C1BE131EC00DA5F46 /* AppDelegate.m */,
-				3B28346E1BE131ED00DA5F46 /* ViewController.h */,
-				3B28346F1BE131ED00DA5F46 /* ViewController.m */,
-				3B2834711BE131ED00DA5F46 /* Main.storyboard */,
-				3B2834741BE131ED00DA5F46 /* Assets.xcassets */,
-				3B2834761BE131ED00DA5F46 /* LaunchScreen.storyboard */,
-				3B2834791BE131ED00DA5F46 /* Info.plist */,
-				3B2834681BE131EC00DA5F46 /* Supporting Files */,
+				3B28349B1BE132B400DA5F46 /* AppDelegate */,
+				3B28349E1BE132B400DA5F46 /* Client */,
+				3B28349F1BE132B400DA5F46 /* Controller */,
+				3B2834A21BE132B400DA5F46 /* Model */,
+				3B2834A31BE132B400DA5F46 /* Ressources */,
+				3B2834A91BE132B500DA5F46 /* Supporting Files */,
+				3B2834AC1BE132B500DA5F46 /* View */,
 			);
 			path = "ios-teams-API";
-			sourceTree = "<group>";
-		};
-		3B2834681BE131EC00DA5F46 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3B2834691BE131EC00DA5F46 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		3B2834811BE131ED00DA5F46 /* ios-teams-APITests */ = {
@@ -140,6 +143,85 @@
 			path = "ios-teams-APIUITests";
 			sourceTree = "<group>";
 		};
+		3B28349B1BE132B400DA5F46 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3B28349C1BE132B400DA5F46 /* AppDelegate.h */,
+				3B28349D1BE132B400DA5F46 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3B28349E1BE132B400DA5F46 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		3B28349F1BE132B400DA5F46 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B2834BA1BE1377500DA5F46 /* TeamsVC.h */,
+				3B2834BB1BE1377500DA5F46 /* TeamsVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B2834A21BE132B400DA5F46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B2834B41BE1346200DA5F46 /* Teams.h */,
+				3B2834B51BE1346200DA5F46 /* Teams.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B2834A31BE132B400DA5F46 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				3B2834A41BE132B400DA5F46 /* Assets.xcassets */,
+				3B2834A51BE132B400DA5F46 /* LaunchScreen.storyboard */,
+				3B2834A71BE132B400DA5F46 /* Main.storyboard */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		3B2834A91BE132B500DA5F46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B2834AA1BE132B500DA5F46 /* Info.plist */,
+				3B2834AB1BE132B500DA5F46 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B2834AC1BE132B500DA5F46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B2834C01BE13AED00DA5F46 /* TitleDC.h */,
+				3B2834C11BE13AED00DA5F46 /* TitleDC.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB93D0C0CD9F7CBF1E4AE09A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D073BC02B09B0C39A4DE01A /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9385492B83A9462DBE02432 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E92389F45A8BD4BC776D32A /* Pods.debug.xcconfig */,
+				7C5DC42BEA7B7810348980FC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B2834921BE131ED00DA5F46 /* Build configuration list for PBXNativeTarget "ios-teams-API" */;
 			buildPhases = (
+				D57517ABEFF0C70BE9AFEE52 /* Check Pods Manifest.lock */,
 				3B2834611BE131EC00DA5F46 /* Sources */,
 				3B2834621BE131EC00DA5F46 /* Frameworks */,
 				3B2834631BE131EC00DA5F46 /* Resources */,
+				5FB51177F8AAD70334E06D60 /* Embed Pods Frameworks */,
+				CAA01E0D767C8CF001431809 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +328,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B2834781BE131ED00DA5F46 /* LaunchScreen.storyboard in Resources */,
-				3B2834751BE131ED00DA5F46 /* Assets.xcassets in Resources */,
-				3B2834731BE131ED00DA5F46 /* Main.storyboard in Resources */,
+				3B2834AF1BE132B500DA5F46 /* Assets.xcassets in Resources */,
+				3B2834B11BE132B500DA5F46 /* Main.storyboard in Resources */,
+				3B2834B01BE132B500DA5F46 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +350,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FB51177F8AAD70334E06D60 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAA01E0D767C8CF001431809 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D57517ABEFF0C70BE9AFEE52 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B2834611BE131EC00DA5F46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B2834701BE131ED00DA5F46 /* ViewController.m in Sources */,
-				3B28346D1BE131EC00DA5F46 /* AppDelegate.m in Sources */,
-				3B28346A1BE131EC00DA5F46 /* main.m in Sources */,
+				3B2834B61BE1346200DA5F46 /* Teams.m in Sources */,
+				3B2834AD1BE132B500DA5F46 /* AppDelegate.m in Sources */,
+				3B2834B31BE132B500DA5F46 /* main.m in Sources */,
+				3B2834C21BE13AED00DA5F46 /* TitleDC.m in Sources */,
+				3B2834BC1BE1377500DA5F46 /* TeamsVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +443,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3B2834711BE131ED00DA5F46 /* Main.storyboard */ = {
+		3B2834A51BE132B400DA5F46 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3B2834721BE131ED00DA5F46 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3B2834761BE131ED00DA5F46 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B2834771BE131ED00DA5F46 /* Base */,
+				3B2834A61BE132B400DA5F46 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3B2834A71BE132B400DA5F46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2834A81BE132B400DA5F46 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,9 +546,10 @@
 		};
 		3B2834931BE131ED00DA5F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E92389F45A8BD4BC776D32A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "ios-teams-API/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ios-teams-API/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.locaweb.ios-teams-API";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +558,10 @@
 		};
 		3B2834941BE131ED00DA5F46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C5DC42BEA7B7810348980FC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "ios-teams-API/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ios-teams-API/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.locaweb.ios-teams-API";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +635,7 @@
 				3B2834941BE131ED00DA5F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B2834951BE131ED00DA5F46 /* Build configuration list for PBXNativeTarget "ios-teams-APITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +644,7 @@
 				3B2834971BE131ED00DA5F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B2834981BE131ED00DA5F46 /* Build configuration list for PBXNativeTarget "ios-teams-APIUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +653,7 @@
 				3B28349A1BE131ED00DA5F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
