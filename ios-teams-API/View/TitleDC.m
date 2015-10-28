@@ -12,7 +12,7 @@
 
 - (void) layoutSubviews{
     [super layoutSubviews];
-    self.imageView.frame = CGRectMake(100, 50, 40, 32.5);
+    self.imageView.frame = CGRectMake(100, 60, 60, 32.5);
     float limgw = self.imageView.image.size.width;
     
     if (limgw > 0) {
