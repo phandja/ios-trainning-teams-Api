@@ -67,16 +67,18 @@
     Teams *team = self.clubes[indexPath.row];
     
     cel.nameLabel.text = team.name ;
-    cel.image.image = nil;
+    [cel.image sd_setImageWithURL:[NSURL URLWithString:team.logo_url]];
     
-    dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
-        
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [cel.imageView sd_setImageWithURL:[NSURL URLWithString:team.logo_url]];
-            [cel setNeedsDisplay];
-            
-            });
-        });
+    //cel.image.image = nil;
+    
+//    dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+//        
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            [cel.imageView sd_setImageWithURL:[NSURL URLWithString:team.logo_url]];
+//            [cel setNeedsDisplay];
+//            
+//            });
+//        });
     
     return cel;
 }
